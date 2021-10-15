@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  #global {
+    text-align: center;
+  }
+  
+  #global {
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    opacity: .96;
+    padding: 25px;
+    box-shadow: 0px 0px 2px gray;
+  }
+  
+  #logo {
+    font-family: "Verdana", "Arial";
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: rgba(16, 78, 172, 0.9);
+    
+    
+    margin-bottom: 20px;
+    
+  }
+  
+  #menu {
+    font-family: Helvetica, Arial;
+    background: rgba(16, 78, 172, 0.9);
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  #menu ul {
+    line-height: 46px;
+    list-style: none;
+  }
+  
+  #menu ul li {
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+  }
+  
+  
+  #menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  #posts {
+    width: 60%;
+    float: left;
+    font-family: Helvetica, Arial;
+  }
+  .post {
+    padding: 7px;
+  }
+  
+  .post h2 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .post .date {
+    display: block;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .post p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  
+  
+  #sidebar {
+    font-family: Helvetica, Arial;
+    width: 31%;
+    float: right;
+    
+  }
+  
+  
+  #sidebar h4 span {
+    background: white;
+    padding: 5px;
+  }
+  
+  #sidebar img {
+    width: 100%;
+  }
+  
+  #sidebar p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  
+  
+  
+ 
+  footer {
+    font-family: Helvetica, Arial;
+    text-align: center;
+    color: white;
+    height: 47px;
+    background: rgba(16, 78, 172, 0.9);
+    margin: 0px auto;
+    width: 66%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    line-height: 47px;
+  }
+  
+  .bx-wrapper,
+  .bx-viewport{
+    height: 480px !important;
+    background-attachment: fixed; 
+  }
+  
+  .subir{
+    color:white;
+    text-decoration: none;
+    display: block;
+    float: right;
+  }
+  
+ 
+
+/* body{
+    background-color: url(/img/cowboy.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    color:black;
+    
+} */
+body {
+   
+    
+        background:url(./img/fondo2.jpg) no-repeat center center fixed;
+        /*background-size: cover;*/
+        background-attachment: fixed; 
+        color:black;
+        
+        
+    
+  
+  
+} 
+
+.cuadro{
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 0%;
+    background-color: white;
+    opacity: .89;
+    padding: 0% 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px black;
+}
