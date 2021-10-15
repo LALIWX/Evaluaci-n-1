@@ -129,7 +129,7 @@
   
   .bx-wrapper,
   .bx-viewport{
-    height: 480px !important;
+    height: 400px !important;
     background-attachment: fixed; 
   }
   
@@ -159,10 +159,12 @@ body {
         
         
     
-  
+        
   
 } 
-
+#slider{
+  width: 100%;
+}
 .cuadro{
     margin: 0 auto;
     margin-top: 20%;
